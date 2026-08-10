@@ -24,7 +24,6 @@ Master of Science in Applied Data Science, Shiley Marcos School of Engineering �
 - [Results](#results)
 - [Key Findings](#key-findings)
 - [The Shield Dashboard](#the-shield-dashboard)
-- [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
 - [Limitations](#limitations)
 - [Recommended Next Steps](#recommended-next-steps)
@@ -159,28 +158,6 @@ A Streamlit application that turns model outputs into a decision-support tool fo
 -->
 
 The dashboard is intended as a **screening and prioritization tool, not an automated decision-maker** — risk scores are meant to guide further review, not determine staffing actions on their own.
-
-## Repository Structure
-
-<!-- PLACEHOLDER: update this tree to match your actual repo layout -->
-
-```
-.
-├── data/
-│   ├── raw/                  # Raw IPEDS survey files (not tracked — see Data section)
-│   └── processed/            # Cleaned institution-year panel
-├── notebooks/
-│   ├── 01_data_pipeline.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   └── 04_modeling.ipynb
-├── dashboard/
-│   └── app.py                # Shield Dashboard (Streamlit)
-├── models/
-│   └── random_forest_final.pkl
-├── requirements.txt
-└── README.md
-```
 
 ## Getting Started
 
